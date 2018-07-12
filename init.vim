@@ -4,6 +4,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
+Plug 'mg979/vim-visual-multi'
 
 call plug#end()
 
