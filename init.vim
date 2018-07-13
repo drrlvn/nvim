@@ -5,6 +5,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'mg979/vim-visual-multi'
+Plug 'valloric/MatchTagAlways'
 
 call plug#end()
 
