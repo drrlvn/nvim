@@ -1,7 +1,8 @@
 call plug#begin()
 
+Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
-Plug 'joshdick/onedark.vim'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'mg979/vim-visual-multi'
@@ -10,13 +11,14 @@ Plug 'valloric/MatchTagAlways'
 call plug#end()
 
 set guicursor=
+set background=light
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme='solarized'
 
-set termguicolors
 syntax on
-colorscheme onedark
+colorscheme solarized
 
 set confirm
 set cursorline
