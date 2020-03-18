@@ -6,7 +6,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'mg979/vim-visual-multi'
-Plug 'valloric/MatchTagAlways'
 
 call plug#end()
 
